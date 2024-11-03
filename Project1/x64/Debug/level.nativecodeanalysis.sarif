@@ -1,0 +1,385 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 22,
+                  "endLine": 18,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersect@Box@@QEAA_NAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 57,
+                  "endLine": 18,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersect@Box@@QEAA_NAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 19,
+                  "endLine": 19,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersect@Box@@QEAA_NAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 54,
+                  "endLine": 19,
+                  "endColumn": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersect@Box@@QEAA_NAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 18,
+                  "endLine": 31,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersectDown@Box@@QEAAMAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 54,
+                  "endLine": 31,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersectDown@Box@@QEAAMAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 18,
+                  "endLine": 45,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersectSideways@Box@@QEAAMAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 54,
+                  "endLine": 45,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?intersectSideways@Box@@QEAAMAEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30153.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00EBC1B0 -il C:\\Users\\ELEUTH~1\\AppData\\Local\\Temp\\_CL_d78dbae0ast -typedil -f level.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930153 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I E:\\Hw_C++\\HW\\Project1\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\level.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory E:\\Hw_C++\\HW\\Project1\\Project1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I E:\\Hw_C++\\HW\\Project1\\Project1\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -external:I E:\\Hw_C++\\HW\\Project1\\Project1\\Include\\um -I E:\\Hw_C++\\HW\\Project1\\Project1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/sounds.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3a1c16904a989daca0b683fdea1907a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/sounds.h"
+          },
+          "hashes": {
+            "md5": "306aed37599403ecaadbb99958fcd855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/gameobject.h"
+          },
+          "hashes": {
+            "md5": "2226a073f039cdbea547495049936a73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/gamestate.h"
+          },
+          "hashes": {
+            "md5": "17404af51b9d767d5907b9ebc9475519"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Hw_C++/HW/Project1/Project1/box.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "88dbe696c8e6ab29184fbf4a1c4a7256"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/player.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "703662c8f5b813e60ffb90f7f668b286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/player.h"
+          },
+          "hashes": {
+            "md5": "1dcd733fe5ae7a694063f2a59880bf92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/include/sgg/graphics.h"
+          },
+          "hashes": {
+            "md5": "889c325ba95aa8b4517534ce4e5994e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/include/sgg/scancodes.h"
+          },
+          "hashes": {
+            "md5": "987dce97685f198c5e23bde30ad310fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/util.h"
+          },
+          "hashes": {
+            "md5": "d314de72e5fa181cd3fcbec2ba7fe82c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/animations.h"
+          },
+          "hashes": {
+            "md5": "364c086e78b104a1e3d41d54e1e75af5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "fe4f54dd63dc6c2aacfbdebe3b58b9c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/level.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "02f8ef8034bbe56b5fa7276ca0b6a68e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/level.h"
+          },
+          "hashes": {
+            "md5": "d1eb8de5e35c052f7608bc12dd05458f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/block.h"
+          },
+          "hashes": {
+            "md5": "d35bfc7a81087822342613841eaaa89b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/hw_c++/hw/project1/project1/dynamic_blocks.h"
+          },
+          "hashes": {
+            "md5": "4b113c813308070a448cffec2734e2bd"
+          }
+        }
+      ]
+    }
+  ]
+}
